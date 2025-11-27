@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeUp - Школа программирования</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background"></div>
+    
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">CodeUp</div>
+                <nav class="nav">
+                    <a href="#about">О школе</a>
+                    <a href="#trainers">Тренеры</a>
+                    <a href="#packages">Тарифы</a>
+                </nav>
+                <div class="phone">+7 800 000 11 22</div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>CodeUp</h1>
+                    <p>Курсы программирования для начинающих и профессионалов. Овладей навыками, которые нужны на рынке.</p>
+                    <button class="btn btn-primary" id="scrollBtn">Записаться на курс</button>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-image-circle"></div>
+                    <img src="images/portrait-smiling-nostalgic-female-student-looking-upper-left-corner-holding-notebooks 1@3x.png" alt="Ученица">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2>CodeUp — растим команду профессионалов в сфере робототехники и IT-образования</h2>
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number">10</div>
+                    <p>лет опыта преподавания</p>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">20</div>
+                    <p>курсов, которые займут вас</p>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">100</div>
+                    <p>студентов прошедших курсы</p>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">10 000</div>
+                    <p>обученых дат на базе компании</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits">
+        <div class="container">
+            <h2>Что вы получите после курса</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <h3>Удостоверение</h3>
+                    <p>Признанный документ для работы в сфере робототехники и программирования</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>Знания</h3>
+                    <p>Актуальные знания современного программиста по продвинутым технологиям</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>Практику</h3>
+                    <p>Реальные проекты на профессиональном оборудовании в базе компании</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="trainers" id="trainers">
+        <div class="container">
+            <h2>Профессиональные тренеры</h2>
+            <div class="carousel-container">
+                <button class="carousel-arrow prev" id="prevBtn">&#10094;</button>
+                <div class="carousel-wrapper">
+                    <div class="carousel-track">
+                        <div class="trainer-card">
+                            <img src="images/portrait-young-smiling-girl-with-books-apple_1163-2567.avif" alt="Ирина Лебедева">
+                            <h3>Ирина Лебедева</h3>
+                            <p>специалист по робототехнике</p>
+                        </div>
+                        <div class="trainer-card">
+                            <img src="images/happy-woman-standing-with-book_23-2148095834.avif" alt="Марина Орлова">
+                            <h3>Марина Орлова</h3>
+                            <p>специалист по робототехнике</p>
+                        </div>
+                        <div class="trainer-card">
+                            <img src="images/glozman.jpg" alt="Максим Петров">
+                            <h3>Максим Петров</h3>
+                            <p>специалист по программированию</p>
+                        </div>
+                        <div class="trainer-card">
+                            <img src="images/teacher-holding-english-class_23-2149402693.avif" alt="Константин Назаров">
+                            <h3>Константин Назаров</h3>
+                            <p>специалист по робототехнике</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-arrow next" id="nextBtn">&#10095;</button>
+            </div>
+            <div class="carousel-dots">
+                <button class="dot active" data-index="0"></button>
+                <button class="dot" data-index="1"></button>
+                <button class="dot" data-index="2"></button>
+                <button class="dot" data-index="3"></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="packages" id="packages">
+        <div class="container">
+            <h2>Выберите нужный тариф</h2>
+            <div class="packages-grid">
+                <div class="package-card">
+                    <div class="package-label">PRO</div>
+                    <div class="package-price">17.500 ₽</div>
+                    <p>Pro по робототехнике и программированию</p>
+                    <button class="btn btn-primary">Оформить заказ</button>
+                </div>
+                <div class="package-card">
+                    <div class="package-label">ROBO</div>
+                    <div class="package-price">10.000 ₽</div>
+                    <p>Основа по робототехнике</p>
+                    <button class="btn btn-primary">Оформить заказ</button>
+                </div>
+                <div class="package-card">
+                    <div class="package-label">PROG</div>
+                    <div class="package-price">10.000 ₽</div>
+                    <p>Основа по программированию</p>
+                    <button class="btn btn-primary">Оформить заказ</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Запишитесь на курс со скидкой 10%</h2>
+            <p>Акция действительна до 10 марта 2024 год</p>
+            <form class="cta-form" id="contactForm">
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Телефон" required>
+                <button type="submit" class="btn btn-cta">Отправить заявку</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">CodeUp SCHOOL</div>
+                <p>&copy; CodeUp SCHOOL. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
